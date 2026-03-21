@@ -1,0 +1,11 @@
+Algoritmo CALCULAR_MEDIA
+	Escribir "BIENVENIDO AL PROGRMA QUE CALCULA LA MEDIA DE 3 NUMEROS"
+	Escribir "DIGITE A"
+	Leer A
+	Escribir "DIGITE B"
+	Leer B
+	Escribir "DIGITE C"
+	Leer C
+	MEDIA <- (A + B + C) / 3
+	Escribir "LA MEDIA DE TUS 3 DIGITOS ES DE " , MEDIA
+FinAlgoritmo

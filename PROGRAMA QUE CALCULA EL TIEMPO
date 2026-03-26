@@ -1,0 +1,40 @@
+Algoritmo segundos_a_minutos_horas
+	Escribir "bienvenido al programa que pasa tus segundos a horas"
+	Escribir "y minutos y de horas a minutos a segundos"
+	Escribir "y de minutos a segundos y horas"
+	Escribir "escoja una opcion"
+    Escribir "1. de horas a segundos y minutos"
+    Escribir "2. de segundos a minutos y horas"
+	Escribir "3. de minutos a segundos y horas"
+    Leer opcion
+    
+    Si opcion = 1 Entonces
+        Escribir "digite sus horas"
+		Leer horas
+		minutos <- (horas * 60)
+		segundos <- ( minutos* 60)
+		Escribir " sus horas a minutos son " , minutos
+		Escribir " sus horas a segundos son " , segundos
+	SiNo
+		Si opcion = 2 Entonces
+		Escribir "digite sus segundos"
+		Leer segundos
+		minutos <- ( segundos / 60)
+		horas <- ( minutos / 60)
+		Escribir " sus segundos a minutos son " , minutos
+		Escribir " sus minutos a horas son " , horas
+	Sino
+		Si opcion = 3 Entonces
+			Escribir "digite sus minutos"
+			Leer minutos
+			segundos <- ( minutos * 60)
+			horas <- ( minutos / 60)
+			Escribir " sus minutos a segundos son " , segundos
+			Escribir " sus minutos a horas son " , horas
+		Sino
+			Escribir "Opcion invalida"
+        FinSi
+    FinSi
+FinSi
+
+FinAlgoritmo

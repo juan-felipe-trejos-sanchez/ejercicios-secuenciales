@@ -1,0 +1,20 @@
+Proceso CALCULAR_DESCUENTO
+	Escribir "BIENVENIDO A ESTE PROGRAMA QUE CALCULARA TU DESCUENTO"
+	Escribir "Elige una opcion:"
+    Escribir "1. USAR EL 15%"
+    Escribir "2. PERSONALIZAR EL DESCUENTO"
+    Leer opcion
+    Si opcion = 1 Entonces
+	DESCUENTO <- (A * 15 / 100)
+	Escribir "CON EL DESCUENTO ES UN TOTAL DE " DESCUENTO
+Sino
+	Si opcion = 2 Entonces
+		Escribir "DIGITE EL DESCUENTO DESEADO"
+		Leer  DESCUENTO
+		Escribir "INGRESE EL TOTAL DE LA COMPRA"
+		Leer TOTAL
+		DESCUENTO <- (TOTAL * DESCUENTO/ 100)
+		Escribir "LA COMPRA CON SU DESCUENTO SERIA DE " , DESCUENTO		
+	FinSi
+FinSi
+FinProceso

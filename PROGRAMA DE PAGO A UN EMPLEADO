@@ -1,0 +1,18 @@
+Proceso PAGO
+	Escribir "PROGRAMA DE PAGO A UN EMPLEADO"
+	Escribir "BIENVENIDO"
+	ESCRIBIR"."
+	ESCRIBIR"."
+	ESCRIBIR "DIGITE SU NOMBRE"
+	Leer NOMBRE
+	Escribir "SALARIO"
+	LEER SALARIO
+	
+		SI SALARIO >= 1000000 Entonces
+			RECARGO <- SALARIO * 1.2
+			Escribir " EL TOTAL A  PAGAR ES DE " RECARGO
+		SiNo
+			TOTAL <- SALARIO * 1.3
+			Escribir "EL TOTAL A  PAGAR ES DE " TOTAL
+		FinSi
+FinProceso

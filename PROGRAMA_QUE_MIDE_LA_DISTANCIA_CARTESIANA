@@ -1,0 +1,13 @@
+Proceso  PROGRAMA_QUE_MIDE_LA_DISTANCIA_CARTESIANA
+	Escribir "INGRESE VALOR X1"
+	Leer X1
+	Escribir "INGRESE VALOR X2"
+	Leer X2
+	Escribir "INGRESE VALOR Y1"
+	Leer Y1
+	Escribir "INGRESE VALOR Y2"
+	Leer Y2
+	DISTANCIA <- (X2 - X1)^2 + (Y2 - Y1)^2
+	TOTAL <- RAIZ (DISTANCIA)
+	Escribir "LA DISTANCIA ES DE " , TOTAL
+FinProceso

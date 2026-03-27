@@ -1,0 +1,11 @@
+Proceso  PROGRAMA_QUE_MIDE_LA_DISTANCIA
+	Escribir "BIENVENIDO, INGRESE SU DIGITO A"
+	Leer A
+	Escribir "BIENVENIDO, INGRESE SU DIGITO B"
+	Leer B
+	distanciA <- (A-B)
+	Si distancia < 0 Entonces
+        distancia <- (distancia * (-1))
+    FinSi
+    Escribir "La distancia entre los numeros es: ", distancia
+FinProceso

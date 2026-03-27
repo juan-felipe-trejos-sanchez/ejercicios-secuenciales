@@ -1,0 +1,17 @@
+Algoritmo invertir_numeros
+    Definir a, decenas, unidades, invertido Como Entero
+    
+    Escribir "Digite un numero de dos cifras:"
+    Leer a
+    
+    Si a > 99 o a < 10 Entonces
+        Escribir "Su numero no cumple con los requisitos de dos cifras"
+    Sino
+        decenas <- trunc(a / 10)
+        unidades <- a - (decenas * 10)
+        
+        invertido <- unidades * 10 + decenas
+        
+        Escribir "Tu numero invertido es: ", invertido
+    FinSi
+FinAlgoritmo

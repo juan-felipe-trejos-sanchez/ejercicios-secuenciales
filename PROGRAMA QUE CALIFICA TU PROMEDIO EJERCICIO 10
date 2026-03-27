@@ -1,0 +1,16 @@
+Algoritmo PROGRAMA_QUE_CALIFICA_TU_PROMEDIO
+	Escribir "DIGITE SU CALIFICACION A (notas del parcial 1 )"
+	Leer A
+	Escribir "DIGITE SU CALIFICACION B (notas del parcial 2 )"
+	Leer B
+	Escribir "DIGITE SU CALIFICACION C (notas del parcial 3 )"
+	Leer C
+	Escribir "DIGITE SU CALIFICACION D (calificacion final)"
+	Leer D
+	Escribir "DIGITE SU CALIFICACION E (calificacion del trabajo final)"
+	Leer E
+	PROMEDIO <- ((A+B+C)/3)
+	PORCENTAJE <- (PROMEDIO*0.55+D*0.30+E*0.15)
+	Escribir "TU PROMEDIO ES DE " ,PROMEDIO
+	Escribir "Y CON EL PORCENTAJE SERIA " , PORCENTAJE
+FinAlgoritmo

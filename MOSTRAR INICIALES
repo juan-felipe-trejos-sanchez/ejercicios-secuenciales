@@ -1,0 +1,9 @@
+Algoritmo Ejercicio18
+	Escribir "Dime tu nombre:"
+	Leer nombre
+	Escribir "Dime tu primer apellido:"
+	Leer apellido1
+	Escribir "Dime tu segundo apellido:"
+	Leer apellido2
+	
+Finalgoritmo

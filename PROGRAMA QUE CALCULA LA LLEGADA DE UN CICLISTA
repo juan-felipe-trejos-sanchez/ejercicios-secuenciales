@@ -1,0 +1,20 @@
+Algoritmo Ejercicio17
+	Escribir "Hora de salida:"
+	Leer HH
+	Escribir "Minutos de salida:"
+	Leer MM
+	Escribir "Segundos de salida:"
+	Leer SS
+	Escribir "Tiempo de viaje en segundos:"
+	Leer T
+	
+	// Pasamos todo a segundos para sumar el viaje
+	segundos_totales = HH * 3600 + MM * 60 + SS + T
+	
+	// Calculamos la nueva hora
+	final_H = Trunc(segundos_totales / 3600) % 24
+	final_M = Trunc(segundos_totales / 60) % 60
+	final_S = segundos_totales % 60
+	
+	Escribir "Hora de llegada: ", final_H, ":", final_M, ":", final_S
+FinAlgoritmo

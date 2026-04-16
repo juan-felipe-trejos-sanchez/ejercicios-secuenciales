@@ -1,0 +1,15 @@
+Algoritmo NotaFinalEstudiante
+    Definir correctas, incorrectas, blanco, notaFinal Como Entero
+    
+    Escribir "Cantidad de respuestas correctas:"
+    Leer correctas
+    Escribir "Cantidad de respuestas incorrectas:"
+    Leer incorrectas
+    Escribir "Cantidad de respuestas en blanco:"
+    Leer blanco
+    
+    // Cálculo: (5 * correctas) + (-1 * incorrectas) + (0 * blanco)
+    notaFinal <- (correctas * 5) + (incorrectas * -1)
+    
+    Escribir "La nota final obtenida es: ", notaFinal
+FinAlgoritmo
